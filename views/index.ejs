@@ -1,0 +1,35 @@
+<%- include('./partials/head.ejs') %>
+
+<main>
+
+  <section>
+    <!-- Hier komen de members -->
+    <% squad.members.forEach(member => { %>
+    <article>
+      <% if (member.avatar) { %>
+      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+      <% }else{ %>
+      <img src="/placeholder.jpg" alt="Placeholder avatar" />
+      <% } %>
+
+      <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+      
+      <!-- <% if (member.colour) { %>
+      <h2><%= member.colour %></h2>
+      <% }else{ %>
+      <h2>niks</h2> -->
+      <% } %>
+
+      <!-- <% if (member.bio) { %>
+      <p><%= member.bio.html %></p>
+      <% }else{ %>
+      <p>
+        Ik ben <%= member.name %> <%= member.prefix %> <%= member.surname %>
+      </p>
+      <% } %> -->
+    </article>
+    <% }) %>
+  </section>
+</main>
+
+<%- include('./partials/foot.ejs') %>

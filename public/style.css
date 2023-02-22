@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #219ebc;
+  
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+article {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  color: slate;
+  text-align: center;
+
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.06);
+  border-radius: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.27); */
+}
+
+article h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+article img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+article img:hover {
+  height: 7em;
+  width: 7em;
+  transition: 0.5s;
+  margin: 0 auto;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+article a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  display: block;
+}
+article a:hover {
+  background: #fff2;
+}
+article a span {
+  display: none;
+}
+
+
+h1{
+  margin-top: 0.5em;
+  color: hsl(0, 0%, 100%);
+}
+
+.choose-squad{
+  display: flex;
+  justify-self: center;
+  margin-right: 1em;
+  
+}
+.squad-a{
+  margin-right: 1em;
+}
+.squad-b{
+  margin-right: 1em;
+}
+
+header{
+  background-color: #023047;
+}
