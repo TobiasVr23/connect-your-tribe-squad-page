@@ -6,7 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
-  background: #219ebc;
+  background: #ffffff;
   
 }
 
@@ -70,7 +70,9 @@ article a {
 }
 article a:hover {
   background: #fff2;
+  
 }
+
 article a span {
   display: none;
 }
@@ -84,16 +86,32 @@ h1{
 .choose-squad{
   display: flex;
   justify-self: center;
-  margin-right: 1em;
+  
   
 }
-.squad-a{
+
+.squad{
   margin-right: 1em;
+  border: black 1px solid;
+  border-radius: 50px;
+  padding:7px;
+  background-color: white;
 }
-.squad-b{
-  margin-right: 1em;
+
+a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.squad:hover{
+  color: white;
+  border: white 1px solid;
+  border-radius: 10px;
+  background-color: black;
+  transition:0.5s;
 }
 
 header{
-  background-color: #023047;
+  background-color: #FF4D00;
 }
