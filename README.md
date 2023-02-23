@@ -12,10 +12,13 @@ Een live-coded voorbeeld tijdens de talk op 15 feb 2023.
 - [Licentie](#licentie)
 
 ## Beschrijving
-
-Een live-coded voorbeeld van een overzichtspagina gemaakt met Express.js en EJS, welke gebruik maakt van configuratie in een `.env` bestand.
+![Schermopname (51)](https://user-images.githubusercontent.com/112855854/220894470-f26e6841-a882-4434-9066-732a30a0861d.png)
+Dit is de squadpage van FDND 2023, hierop kun je alle studenten en docenten zien en sorteren op squad. Iedereen is weergegeven met hun avatar, volledige naam en hun nickname. 
 
 ## Kenmerken
+Deze squadpage is gebouwd doormiddel van Node. Node is een omgeving die helpt met het uitvoeren van JavaScript functies buiten de browser.
+In Node zijn er verschillende frameworks, een hiervan is Express.
+EJS
 
 ## Installatie
 
