@@ -15,8 +15,7 @@ Dit is de squadpage van FDND 2023, hierop kun je alle studenten en docenten zien
 
 ## Kenmerken
 Deze squadpage is gebouwd door middel van Node. Node is een omgeving die ervoor zorgt dat de code loopt op server-side in plaats van client-side.
-In Node zijn er verschillende frameworks, een hiervan is Express.
-EJS
+In Node zijn er verschillende frameworks, een hiervan is Express. Express zorgt ervoor dat er extra functies zijn binnen Node om het bouwen van websites makkelijker te maken. Ook is deze squadpage met EJS gemaakt, dit zorgt ervoor dat functis van javascript in html geschreen kunnen worden
 
 ## Installatie
 1. Fork en clone de code
