@@ -1,6 +1,4 @@
-# Squadpage voorbeeld
-
-Een live-coded voorbeeld tijdens de talk op 15 feb 2023.
+# Squadpage FDND 2023
 
 ## Inhoudsopgave
 
@@ -16,12 +14,11 @@ Een live-coded voorbeeld tijdens de talk op 15 feb 2023.
 Dit is de squadpage van FDND 2023, hierop kun je alle studenten en docenten zien en sorteren op squad. Iedereen is weergegeven met hun avatar, volledige naam en hun nickname. 
 
 ## Kenmerken
-Deze squadpage is gebouwd doormiddel van Node. Node is een omgeving die helpt met het uitvoeren van JavaScript functies buiten de browser.
+Deze squadpage is gebouwd door middel van Node. Node is een omgeving die ervoor zorgt dat de code loopt op server-side in plaats van client-side.
 In Node zijn er verschillende frameworks, een hiervan is Express.
 EJS
 
 ## Installatie
-
 1. Fork en clone de code
 2. Voer npm install uit in de projectmap
 3. Voer npm start uit en open het voorbeeld in je browser
