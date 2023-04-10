@@ -4,7 +4,7 @@ const url = 'https://whois.fdnd.nl/api/v1/squad/'
 
 // Maak een nieuwe express app
 const app = express()
-
+ 
 // Stel in hoe we express gebruiken
 app.set('view engine', 'ejs')
 app.set('views', './views')
